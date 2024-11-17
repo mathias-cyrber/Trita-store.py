@@ -62,7 +62,8 @@ color: #fff;
 
 .nav__title{
         font-weight: 300;
-}
+        clip-path: circle(50% at 50% 50%);
+        }
 
 
 .nav__items{
@@ -82,6 +83,14 @@ list-style: none;
 .nav__links{
         color: #fff;
         text-decoration: none;
+        cursor: pointer;
+        display: inline-block;
+        background-color:darkcyan;
+        justify-self: center;
+        color: #fff;
+        text-decoration: none;
+        padding: 13px 30px;
+        border-radius: 30px;
 }
 
 
@@ -169,6 +178,7 @@ list-style: none;
         gap: 1em;
         justify-items: center;
         width: 260px;
+        width: 260px;
         overflow: hidden;
-        margin: 0 auto;
+        margin: auto;
 }
